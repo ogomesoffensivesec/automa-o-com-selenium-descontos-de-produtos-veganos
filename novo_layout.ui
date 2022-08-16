@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>348</width>
+    <height>325</height>
+   </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>228</red>
+        <green>253</green>
+        <blue>225</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>228</red>
+        <green>253</green>
+        <blue>225</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>228</red>
+        <green>253</green>
+        <blue>225</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>228</red>
+        <green>253</green>
+        <blue>225</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>228</red>
+        <green>253</green>
+        <blue>225</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>228</red>
+        <green>253</green>
+        <blue>225</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>228</red>
+        <green>253</green>
+        <blue>225</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>228</red>
+        <green>253</green>
+        <blue>225</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>228</red>
+        <green>253</green>
+        <blue>225</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="font">
+   <font>
+    <family>Gotham Book</family>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Descontos Veganos</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #E4FDE1;
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QPushButton" name="btn_gerarPlanilha_2">
+      <property name="styleSheet">
+       <string notr="true">
+
+
+QPushButton{
+	border: 2px solid #90CF8E;
+	border-radius: 15px;
+	padding: 10px;
+	background-color:#90CF8E;
+	color:white;
+
+	
+	box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2) ;
+margin-botton: 10px;
+	margin-top: 10px;
+	margin-right: 30px;
+	margin-left:30px;
+}
+QPushButton:hover{
+	border: 2px solid #A7DCA5;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Gerar planilha</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="font">
+       <font>
+        <family>Gotham</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+
+
+QLineEdit{
+	border: 2px solid #90CF8E;
+	border-radius: 15px;
+	padding: 10px;
+	background-color:#90CF8E;
+	color:white;
+	box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2) ;
+	margin-botton: 10px;
+	margin-top: 10px;
+	margin-right: 30px;
+	margin-left:30px;
+}QLineEdit:hover{
+	border: 2px solid #A7DCA5;
+}
+
+QLineEdit:focus{background-color: #C6EDC3;
+	color: #48684f;
+border: 2px solid #A7DCA5;}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>E-mail</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_sendEmail">
+      <property name="styleSheet">
+       <string notr="true">
+
+
+QPushButton{
+	border: 2px solid #90CF8E;
+	border-radius: 15px;
+	padding: 10px;
+	background-color:#90CF8E;
+	color:white;
+
+	
+	box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2) ;
+margin-botton: 10px;
+	margin-top: 10px;
+	margin-right: 30px;
+	margin-left:30px;
+}
+QPushButton:hover{
+	border: 2px solid #A7DCA5;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Enviar planilha</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_sair">
+      <property name="styleSheet">
+       <string notr="true">
+
+
+QPushButton{
+	border: 2px solid #90CF8E;
+	border-radius: 15px;
+	padding: 10px;
+	background-color:#90CF8E;
+	color:white;
+
+	
+	box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2) ;
+margin-botton: 1px;
+	margin-top: 10px;
+	margin-right: 30px;
+	margin-left:30px;
+}
+QPushButton:hover{
+	border: 2px solid #A7DCA5;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Saijr</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="ICONS/file_rc.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btn_sair</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>193</x>
+     <y>432</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>193</x>
+     <y>275</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
